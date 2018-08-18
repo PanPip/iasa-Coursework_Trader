@@ -19,6 +19,8 @@ The NN was allowed to do two actions on every new frame:
 - buy
 - sell
 - do nothing
+
+
 If the position was "short" and the NN decided to "buy", position switched to "no positions open".
 This allowed to keep the program simple.
 
