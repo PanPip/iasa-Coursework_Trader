@@ -1,0 +1,12 @@
+1 - trained on apr 30-40k frames, no random beginning, strange weights
+2 - trained on exactly 60k , random beginning, weights: -1 for loose, 0.1 for good trade -0.1 for bad trade.
+3 - crashed on 27k *same inputs, just fixes of output*
+4 - trained on 75k *same* paused, as needed
+!Write a way to train after pause!
+5 - trained on 100k
+6 - trained on 800k - looks like it is bugged
+7 - trained on 870k - finally a normal network was not tested. used spread of 0.0001 On next will down it to 0.00001
+8 - trainrd 0n 1110k - took spread o.00001 . Now weights were 0.1 ; -0.1 ; -1 and min account of 900 usd. 
+9 - trained on 1220k - spread same, now min account 800 usd and weights -0.5, 0.5, -1 . Next taking again less spread
+10 - 1160k - spread 0.000001 Weights same
+
