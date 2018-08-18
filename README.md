@@ -13,11 +13,22 @@ Only three states were possible:
 - short position
 - no positions open
 - long position
+
+
 The NN was allowed to do two actions on every new frame:
 - buy
 - sell
 - do nothing
 If the position was "short" and the NN decided to "buy", position switched to "no positions open".
 This allowed to keep the program simple.
+
+Unfortunately, the part with generating spectrograms is now available, as was developed by my peers. 
+Though, it's code and description is available in the Coursework file.
+
+![sample](images/img03.PNG)
+
+![sample](images/img02.PNG)
+
+![sample](images/img01.PNG)
 
 Year - 2017
